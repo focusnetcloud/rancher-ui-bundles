@@ -35,9 +35,9 @@ metadata:
 spec:
   plugin:
     name: cloud-services-marketplace
-    version: "0.1.1"
-    endpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.1"
-    compressedEndpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.1.tgz"
+    version: "0.1.2"
+    endpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.2"
+    compressedEndpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.2.tgz"
     metadata:
       catalog.cattle.io/rancher-version: ">= 2.10.0-0"
       catalog.cattle.io/ui-extensions-version: ">= 3.0.0 < 4.0.0"
