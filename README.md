@@ -8,7 +8,7 @@ This repository **contains only build artefacts** — no source code. Source liv
 
 | Extension | Latest version | Purpose |
 |-----------|----------------|---------|
-| `cloud-services-marketplace` | see `extensions/cloud-services-marketplace/` | Lists focusnet's bookable add-on services (SUSE Observability, NeuVector, M365 BaaS, …) inside the Rancher UI and links to the focusnet customer portal for ordering. |
+| `cloud-services-marketplace` | see `extensions/cloud-services-marketplace/` | Lists focusnet's bookable add-on services (SUSE Observability, NeuVector, MSV Images, …) inside the Rancher UI and can import standard VM images into customer MSV clusters. |
 
 ## Layout
 
@@ -35,9 +35,9 @@ metadata:
 spec:
   plugin:
     name: cloud-services-marketplace
-    version: "0.1.0"
-    endpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.0"
-    compressedEndpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.0.tgz"
+    version: "0.1.1"
+    endpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.1"
+    compressedEndpoint: "https://raw.githubusercontent.com/focusnetcloud/rancher-ui-bundles/main/extensions/cloud-services-marketplace/0.1.1.tgz"
     metadata:
       catalog.cattle.io/rancher-version: ">= 2.10.0-0"
       catalog.cattle.io/ui-extensions-version: ">= 3.0.0 < 4.0.0"
