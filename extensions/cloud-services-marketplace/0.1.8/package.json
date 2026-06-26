@@ -1,0 +1,19 @@
+{
+  "name": "cloud-services-marketplace",
+  "description": "focusnet Cloud Services Marketplace - buchbare Add-Ons in der Rancher UI",
+  "version": "0.1.8",
+  "private": false,
+  "rancher": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0"
+  },
+  "files": [
+    "**/*"
+  ],
+  "main": "cloud-services-marketplace-0.1.8.umd.min.js"
+}
