@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/neuvector/manager-ext",
+  "tag": "neuvector-ui-ext-2.2.1",
+  "commit": "ffc9cbdd8d3d5e864afc1780883e5ef198904f60",
+  "archiveSha256": "cb497b04d89646e34caccfbeb48cc5fb3b1bffde33f3c8b443064054228030be",
+  "rancherCommit": "c14926af5478ee3e2679c0b40736197f22a56e82",
+  "rancherTypeMapSha256": "9e0b46d68627d1ba3597a68008da671532c0b6b3510aa8a60e4c72d67fde496d"
+}

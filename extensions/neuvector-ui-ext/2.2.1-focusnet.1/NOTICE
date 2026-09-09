@@ -1,0 +1,5 @@
+NeuVector UI Extension 2.2.1-focusnet.1
+Upstream: https://github.com/neuvector/manager-ext/tree/ffc9cbdd8d3d5e864afc1780883e5ef198904f60
+Apache-2.0; upstream copyright and third-party notices retained.
+focusnet modification: menu visibility uses Rancher IF_HAVE.ADMIN; API permissions are unchanged.
+Source patch: FOCUSNET.patch. Build instructions: scripts/neuvector/README.md in MF/rancher-ui-extensions.

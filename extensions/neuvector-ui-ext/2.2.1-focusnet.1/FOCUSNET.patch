@@ -1,0 +1,24 @@
+--- a/pkg/neuvector-ui-ext/neuvector.ts
++++ b/pkg/neuvector-ui-ext/neuvector.ts
+@@ -1,4 +1,5 @@
+ import { IPlugin } from "@shell/core/types";
++import { IF_HAVE } from "@shell/store/type-map";
+
+ export function init($plugin: IPlugin, store: any) {
+   const NEUVECTOR = "neuvector";
+@@ -6,7 +7,7 @@
+   const opts = {
+     name: "neuvector",
+     ifHaveGroup: "",
+-    ifHave: "",
++    ifHave: IF_HAVE.ADMIN,
+   };
+
+   store.commit("type-map/product", opts);
+--- /dev/null
++++ b/pkg/neuvector-ui-ext/types/focusnet-shell.d.ts
+@@ -0,0 +1,4 @@
++// @rancher/shell exports this at runtime, but its 3.0.12-rc.2 declarations omit it.
++declare module "@shell/store/type-map" {
++  export const IF_HAVE: { readonly ADMIN: "admin-user" };
++}
